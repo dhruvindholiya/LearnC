@@ -44,7 +44,7 @@ int main () {
 			printf("December");
 			break;
 		default:
-			printf("INVALID - your added input");
+			printf("INVALID - Please check your added input.");
 			break;
 	}
 		

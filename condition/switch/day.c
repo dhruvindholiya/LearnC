@@ -4,8 +4,9 @@ int main () {
 	
 	char day;
 	
-	printf("Enter day: ");
+	printf("Enter the first letter of day: ");
 	scanf("%c", &day);
+	
 	switch (day) {
 		case 'M':
 			printf("Monday");
@@ -29,7 +30,7 @@ int main () {
 			printf("Sunday");
 			break;
 		default:
-			printf("INVALID - your added input");
+			printf("\nINVALID - Please check your added input.");
 			break;
 	}
 		

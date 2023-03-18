@@ -16,13 +16,13 @@ int main() {
 	totle_salary = salary + bonus;
 	
 	if (salary < 10000 && salary > 0) {
-		printf("Your salary: Rs. %d/-\n", salary);
+		printf("\nYour salary: Rs. %d/-\n", salary);
 		printf("Your bonus: RS. %d/-\n", bonus);
 		printf("Your totle_salary: Rs. %d/-", totle_salary);
 	} else if (salary < 0) {
-		printf("INVALID - Your salary should be more than or equal to 0.");
+		printf("\nINVALID - Your salary should be more than or equal to 0.");
 	} else {
-		printf("Sorry, Rs. %d is more than Rs.10000 so you can not get bonus.", salary);
+		printf("\nSorry, Rs. %d is more than Rs.10000 so you can not get bonus.", salary);
 	}
 	
 	return 0;

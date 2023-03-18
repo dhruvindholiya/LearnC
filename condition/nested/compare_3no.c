@@ -2,22 +2,22 @@
 
 int main () {
 	
-	int a, b, c;
+	float n1, n2, n3;
 	
-	printf("Please enter any three number: ");
-	scanf("%d %d %d", &a, &b, &c);
+	printf("Please enter any three numbers: ");
+	scanf("%f %f %f", &n1, &n2, &n3);
 	
-	if (a > b) {
-		if (a > c) {
-			printf("%d is maximum", a);
+	if (n1 > n2) {
+		if (n1 > n3) {
+			printf("%f is maximum", n1);
 		} else {
-			printf("%d is maximum", c);
+			printf("%f is maximum", n3);
 		}
 	} else {
-		if (b > c) {
-			printf("%d is maximum", b);
+		if (n2 > n3) {
+			printf("%f is maximum", n2);
 		} else {
-			printf("%d is maximum", c);
+			printf("%f is maximum", n3);
 		}
 	}
 	
