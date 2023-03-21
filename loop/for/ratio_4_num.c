@@ -1,14 +1,20 @@
 #include<stdio.h>
 int main() {
 	
-	int a, b, c, d;
+	int i, a, b, c, d;
+	float ans;
 	
-	printf("Please enter any four numbers: ");
-	scanf("%d %d %d %d", &a, &b, &c, &d);
+	for (i=1; i<=3; i++) {
+		printf("Please enter any four numbers: ");
+		scanf("%d %d %d %d", &a, &b, &c, &d);
+		
+		if (c == d) {
+			printf("Ratio is not possible");
+		} else {
+			ans = (a-b) / (c-d);
+			printf("Ans: %f\n", ans);
+		}
+	}
 	
-	if (c == d) {
-		printf("We can not to find ratio.");
-	} else 
-	
-	return;
+	return 0;
 }
