@@ -1,15 +1,14 @@
-#include<stdio.h> 
+#include<stdio.h>
 
 int main() {
 	
 	int i;
 	
 	i = 1;
-	while (i <= 10) {
+	do {
 		printf("%d\n", i);
 		i++;
-	}
-
-	return 0;	
+	} while (i <= 10);
+	
+	return 0;
 }
-
