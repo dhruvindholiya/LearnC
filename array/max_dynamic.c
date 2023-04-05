@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+void smallestNum() {
   	int i, n, arr[i], max=0;
   
   	printf("Please enter size of an array: ");
@@ -11,13 +11,14 @@ int main() {
   	}
   
   	for (i = 0; i < n; i++) {
-  		if (arr[i] > max) {
+  		if (arr[i] < max) {
   			max = arr[i];
   		}
 	  
   	}
   	printf("\nmax: %d", max);
-
-  	return 0;
 }
 
+int main() {
+	smallestNum();
+}

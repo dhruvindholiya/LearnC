@@ -24,7 +24,7 @@ int main () {
 			}
 		}
 	} else {
-		printf("%d is should more than 1.");
+		printf("Added number is should more than 1.");
 	}
 	
 	return 0;
