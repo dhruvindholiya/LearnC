@@ -11,28 +11,28 @@ int main() {
 //	gets(str1);
 	
 	
-//	l = strlen(str);
-//	printf("%d", l);	
+	l = strlen(str);
+	printf("%d", l);	
 
 //	strcpy(str1, str);
 //	puts(str1);
-
+//
 //	strcat(str, str1);
 //	puts(str);
-
+//
 //	strcmp(str, str1);
 //	if (strcmp(str, str1) == 0) {
-//		printf("Your added both strings are same.");
+//			printf("Your added both strings are same.");
 //	} else {
 //		printf("Your added both strings are not same. ");
 //	}
-
+//
 //	strrev(str);
 //	puts(str);
-
+//
 //	strlwr(str);
 //	puts(str);
-
+//
 //	strupr(str);
 //	puts(str);
 	
