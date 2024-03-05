@@ -7,16 +7,16 @@ int main() {
 	printf("Please enter any string: ");
 	gets(str);
 	
-//	printf("Please enter second string: ");
-//	gets(str1);
+	printf("Please enter second string: ");
+	gets(str1);
 	
-	
-	l = strlen(str);
-	printf("%d", l);	
+//	
+//	l = strlen(str);
+//	printf("%d", l);	
 
 //	strcpy(str1, str);
 //	puts(str1);
-//
+
 //	strcat(str, str1);
 //	puts(str);
 //
@@ -27,8 +27,8 @@ int main() {
 //		printf("Your added both strings are not same. ");
 //	}
 //
-//	strrev(str);
-//	puts(str);
+	strrev(str);
+	puts(str);
 //
 //	strlwr(str);
 //	puts(str);
